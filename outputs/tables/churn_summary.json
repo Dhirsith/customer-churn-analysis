@@ -1,0 +1,32 @@
+{
+  "customers": 7043,
+  "churned_customers": 1869,
+  "retained_customers": 5174,
+  "churn_rate": 0.26537,
+  "churn_rate_percent": 26.54,
+  "median_tenure_months": 29.0,
+  "median_monthly_charges": 70.35,
+  "median_total_charges": 1397.47,
+  "highest_churn_contract": "Month-to-month",
+  "highest_churn_contract_rate": 0.427097,
+  "highest_churn_tenure_group": "0–11 months",
+  "highest_churn_tenure_group_rate": 0.482842,
+  "highest_churn_payment_method": "Electronic check",
+  "highest_churn_payment_method_rate": 0.452854,
+  "definitions": {
+    "churn_rate": "Churned customers divided by customers in the stated group.",
+    "tenure_groups": [
+      "0–11 months",
+      "12–23 months",
+      "24–47 months",
+      "48–72 months"
+    ],
+    "monthly_charge_groups_source_units": [
+      "0–<30",
+      "30–<60",
+      "60–<90",
+      "90+"
+    ],
+    "association_caveat": "Descriptive association; does not establish cause or future behavior."
+  }
+}
