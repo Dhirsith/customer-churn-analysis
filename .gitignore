@@ -19,3 +19,10 @@ outputs/charts/*
 !outputs/charts/churn_by_contract.png
 !outputs/charts/churn_by_tenure_group.png
 !outputs/charts/churn_by_service.png
+
+# Local credentials and editor state (keep a sanitized example shareable)
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.lnk

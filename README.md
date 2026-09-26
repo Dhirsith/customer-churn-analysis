@@ -34,7 +34,7 @@ The following values are generated from the pinned CSV by python -m src.pipeline
 - Customers with Fiber optic internet had a **41.89%** churn rate (**1,297 of 3,096**); customers with no internet service had **7.40%** (**113 of 1,526**).
 - The median tenure was **29 months**. Median monthly charge was **70.35 source units**; the CSV does not label the currency.
 
-The groups overlap and the rates do not show that contract, tenure, payment method, or service choice caused churn. Full counts and results by category are in outputs/tables/.
+The groups overlap and the rates do not show that contract, tenure, payment method, or service choice caused churn. Run `python -m src.pipeline` to generate full counts and category results in `outputs/tables/`. Only the compact summary and quality JSON reports are tracked in Git; the category CSVs are generated locally.
 
 ## Visualisations
 
@@ -153,3 +153,4 @@ GitHub Actions installs the declared dependencies and runs pytest, including SQL
 ## License
 
 Project code is MIT licensed. The IBM source repository describes the Apache-2.0 license as applying to its code pattern; the dataset license is not separately stated there. The raw dataset is not committed to this project.
+
